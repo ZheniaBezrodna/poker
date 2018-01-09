@@ -365,7 +365,7 @@ print(result())
 
 
 def one_more_card(list_of_cards):
-    # This function asks you to enter one more card (twice) and validates
+    # This function asks you to enter one more card and validates
     # their input.
     """
 
@@ -401,6 +401,5 @@ def one_more_card(list_of_cards):
     return list_of_cards
 
 
-for m in range(2):
-    one_more_card(board)
-    print(result())
+one_more_card(board)
+print(result())
